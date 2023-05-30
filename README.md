@@ -20,10 +20,15 @@ const key = 'YOUR_API_KEY';
 <h2>Screenshots</h2>
 <img src="https://i.hizliresim.com/jrc9zr3.png">
 <h2>Technologies Used</h2>
--HTML
--CSS
--JavaScript
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JAVASCRİPT</li>
+</ul>
 
 <h2>Resources</h2>
--OpenWeatherMap API
+<ul>
+    <li>OpenWeatherMap API</li>
+
+</ul>
 
