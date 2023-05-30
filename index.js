@@ -1,4 +1,4 @@
-const key = 'a9f7a613d274e31b53f83c456ae19487';
+const key = ''; //API KEY
 
 const url = 'https://api.openweathermap.org/data/2.5/'
 
