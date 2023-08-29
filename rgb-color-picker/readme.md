@@ -17,7 +17,3 @@ This simple RGB color picker project allows you to adjust and visualize RGB colo
 ## Requirements
 
 There are no specific requirements to use this project. You only need a web browser.
-
-## License
-
-This project is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.
