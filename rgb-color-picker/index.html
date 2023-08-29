@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color</title>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .range-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 15px;
+        }
+
+        input[type="range"] {
+            width: 150px;
+        }
+
+        span {
+            margin-top: 5px;
+        }
+        
+        label {
+            margin: 2px;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="range-container">
+            <label for="red">RED</label>
+            <input id="rn1" type="range" min="0" max="255">
+            <span id="lb1"></span>
+        </div>
+        <div class="range-container">
+            <label for="green">GREEN</label>
+            <input id="rn2" type="range" min="0" max="255">
+            <span id="lb2"></span>
+        </div>
+        <div class="range-container">
+            <label for="blue">BLUE</label>
+            <input id="rn3" type="range" min="0" max="255">
+            <span id="lb3"></span>
+        </div>
+    </div> 
+
+
+
+    <!--
+        <div id="md">
+        <input id="rn1" type="range" min="0" max="255" id="red">
+        <label id="lb1"></label>
+        <br>
+        
+        <input id="rn2" type="range" min="0" max="255" id="red">
+        <label id="lb2"></label>
+        <br>
+        
+        <input id="rn3" type="range" min="0" max="255" id="red">
+        <label id="lb3"></label>
+        <br>
+        </div>
+
+    -->
+    <script src="index.js"></script>
+</body>
+</html>
